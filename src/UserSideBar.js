@@ -1,5 +1,5 @@
-export default function UserSideBar(props){
-    return(
+export default function UserSideBar(props) {
+    return (
         <div class="usuario">
             <img src={props.userLogo} />
             <div class="texto">

@@ -1,5 +1,5 @@
-export default function MobileMenu(){
-    return(
+export default function MobileMenu() {
+    return (
         <div class="fundo-mobile">
             <ion-icon name="home"></ion-icon>
             <ion-icon name="search-outline"></ion-icon>

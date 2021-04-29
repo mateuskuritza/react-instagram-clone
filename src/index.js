@@ -6,20 +6,20 @@ import Stories from "./Stories";
 import Feed from "./Feed";
 import MobileMenu from "./MobileMenu";
 
-function App(){
-    return(
-    <>
-        <Top />
-        <div class="corpo">
-            <div class="esquerda">
-                <Stories />
-                <Feed/>
+function App() {
+    return (
+        <>
+            <Top />
+            <div class="corpo">
+                <div class="esquerda">
+                    <Stories />
+                    <Feed />
+                </div>
+                <Sidebar />
             </div>
-        <Sidebar />
-        </div>
-        <MobileMenu />
-    </>
+            <MobileMenu />
+        </>
     );
 }
 
-ReactDOM.render(App(),document.querySelector(".root"));
+ReactDOM.render(App(), document.querySelector(".root"));
