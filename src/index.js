@@ -10,15 +10,13 @@ function App(){
     return(
     <>
         <Top />
-
-      <div class="corpo">
-        <div class="esquerda">
-            <Stories />
-            <Feed/>
-        </div>
+        <div class="corpo">
+            <div class="esquerda">
+                <Stories />
+                <Feed/>
+            </div>
         <Sidebar />
-      </div>
-
+        </div>
         <MobileMenu />
     </>
     );
